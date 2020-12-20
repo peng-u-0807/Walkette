@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B850EDFE258D83BA00EEB9A7 /* Walkette_againApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B850EDFD258D83BA00EEB9A7 /* Walkette_againApp.swift */; };
+		B850EE00258D83BA00EEB9A7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B850EDFF258D83BA00EEB9A7 /* ContentView.swift */; };
+		B850EE02258D83BC00EEB9A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B850EE01258D83BC00EEB9A7 /* Assets.xcassets */; };
+		B850EE05258D83BC00EEB9A7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B850EE04258D83BC00EEB9A7 /* Preview Assets.xcassets */; };
+		B850EE10258D83BC00EEB9A7 /* Walkette_againTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B850EE0F258D83BC00EEB9A7 /* Walkette_againTests.swift */; };
+		B850EE1B258D83BC00EEB9A7 /* Walkette_againUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B850EE1A258D83BC00EEB9A7 /* Walkette_againUITests.swift */; };
+		B850EE2C258D843000EEB9A7 /* LogInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B850EE2B258D843000EEB9A7 /* LogInView.swift */; };
+		B850EE31258D844B00EEB9A7 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B850EE30258D844B00EEB9A7 /* SignUpView.swift */; };
+		B850EE36258D845900EEB9A7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B850EE35258D845900EEB9A7 /* MainView.swift */; };
+		B850EE3B258D846800EEB9A7 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B850EE3A258D846800EEB9A7 /* MapView.swift */; };
+		B850EE40258D847600EEB9A7 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B850EE3F258D847600EEB9A7 /* MenuView.swift */; };
+		B850EE45258D848600EEB9A7 /* MainGalleryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B850EE44258D848500EEB9A7 /* MainGalleryView.swift */; };
+		B850EE4A258D848F00EEB9A7 /* AnalysisView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B850EE49258D848F00EEB9A7 /* AnalysisView.swift */; };
+		B850EE50258D895700EEB9A7 /* Metal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B850EE4F258D895700EEB9A7 /* Metal.framework */; };
+		B850EE5E258D9E9B00EEB9A7 /* testVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = B850EE5D258D9E9B00EEB9A7 /* testVideo.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B850EE0C258D83BC00EEB9A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B850EDF2258D83BA00EEB9A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B850EDF9258D83BA00EEB9A7;
+			remoteInfo = Walkette_again;
+		};
+		B850EE17258D83BC00EEB9A7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B850EDF2258D83BA00EEB9A7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B850EDF9258D83BA00EEB9A7;
+			remoteInfo = Walkette_again;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B850EDFA258D83BA00EEB9A7 /* Walkette_again.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Walkette_again.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B850EDFD258D83BA00EEB9A7 /* Walkette_againApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Walkette_againApp.swift; sourceTree = "<group>"; };
+		B850EDFF258D83BA00EEB9A7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B850EE01258D83BC00EEB9A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B850EE04258D83BC00EEB9A7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B850EE06258D83BC00EEB9A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B850EE0B258D83BC00EEB9A7 /* Walkette_againTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Walkette_againTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B850EE0F258D83BC00EEB9A7 /* Walkette_againTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Walkette_againTests.swift; sourceTree = "<group>"; };
+		B850EE11258D83BC00EEB9A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B850EE16258D83BC00EEB9A7 /* Walkette_againUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Walkette_againUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B850EE1A258D83BC00EEB9A7 /* Walkette_againUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Walkette_againUITests.swift; sourceTree = "<group>"; };
+		B850EE1C258D83BC00EEB9A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B850EE2B258D843000EEB9A7 /* LogInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInView.swift; sourceTree = "<group>"; };
+		B850EE30258D844B00EEB9A7 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		B850EE35258D845900EEB9A7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B850EE3A258D846800EEB9A7 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		B850EE3F258D847600EEB9A7 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		B850EE44258D848500EEB9A7 /* MainGalleryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainGalleryView.swift; sourceTree = "<group>"; };
+		B850EE49258D848F00EEB9A7 /* AnalysisView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisView.swift; sourceTree = "<group>"; };
+		B850EE4F258D895700EEB9A7 /* Metal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Metal.framework; path = System/Library/Frameworks/Metal.framework; sourceTree = SDKROOT; };
+		B850EE5D258D9E9B00EEB9A7 /* testVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = testVideo.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B850EDF7258D83BA00EEB9A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B850EE50258D895700EEB9A7 /* Metal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B850EE08258D83BC00EEB9A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B850EE13258D83BC00EEB9A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B850EDF1258D83BA00EEB9A7 = {
+			isa = PBXGroup;
+			children = (
+				B850EDFC258D83BA00EEB9A7 /* Walkette_again */,
+				B850EE0E258D83BC00EEB9A7 /* Walkette_againTests */,
+				B850EE19258D83BC00EEB9A7 /* Walkette_againUITests */,
+				B850EDFB258D83BA00EEB9A7 /* Products */,
+				B850EE4E258D895700EEB9A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B850EDFB258D83BA00EEB9A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B850EDFA258D83BA00EEB9A7 /* Walkette_again.app */,
+				B850EE0B258D83BC00EEB9A7 /* Walkette_againTests.xctest */,
+				B850EE16258D83BC00EEB9A7 /* Walkette_againUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B850EDFC258D83BA00EEB9A7 /* Walkette_again */ = {
+			isa = PBXGroup;
+			children = (
+				B850EE5C258D9E6800EEB9A7 /* Assets */,
+				B850EDFD258D83BA00EEB9A7 /* Walkette_againApp.swift */,
+				B850EDFF258D83BA00EEB9A7 /* ContentView.swift */,
+				B850EE2B258D843000EEB9A7 /* LogInView.swift */,
+				B850EE30258D844B00EEB9A7 /* SignUpView.swift */,
+				B850EE35258D845900EEB9A7 /* MainView.swift */,
+				B850EE3A258D846800EEB9A7 /* MapView.swift */,
+				B850EE3F258D847600EEB9A7 /* MenuView.swift */,
+				B850EE44258D848500EEB9A7 /* MainGalleryView.swift */,
+				B850EE49258D848F00EEB9A7 /* AnalysisView.swift */,
+				B850EE01258D83BC00EEB9A7 /* Assets.xcassets */,
+				B850EE06258D83BC00EEB9A7 /* Info.plist */,
+				B850EE03258D83BC00EEB9A7 /* Preview Content */,
+			);
+			path = Walkette_again;
+			sourceTree = "<group>";
+		};
+		B850EE03258D83BC00EEB9A7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B850EE04258D83BC00EEB9A7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B850EE0E258D83BC00EEB9A7 /* Walkette_againTests */ = {
+			isa = PBXGroup;
+			children = (
+				B850EE0F258D83BC00EEB9A7 /* Walkette_againTests.swift */,
+				B850EE11258D83BC00EEB9A7 /* Info.plist */,
+			);
+			path = Walkette_againTests;
+			sourceTree = "<group>";
+		};
+		B850EE19258D83BC00EEB9A7 /* Walkette_againUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B850EE1A258D83BC00EEB9A7 /* Walkette_againUITests.swift */,
+				B850EE1C258D83BC00EEB9A7 /* Info.plist */,
+			);
+			path = Walkette_againUITests;
+			sourceTree = "<group>";
+		};
+		B850EE4E258D895700EEB9A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B850EE4F258D895700EEB9A7 /* Metal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B850EE5C258D9E6800EEB9A7 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B850EE5D258D9E9B00EEB9A7 /* testVideo.mp4 */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B850EDF9258D83BA00EEB9A7 /* Walkette_again */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B850EE1F258D83BC00EEB9A7 /* Build configuration list for PBXNativeTarget "Walkette_again" */;
+			buildPhases = (
+				B850EDF6258D83BA00EEB9A7 /* Sources */,
+				B850EDF7258D83BA00EEB9A7 /* Frameworks */,
+				B850EDF8258D83BA00EEB9A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Walkette_again;
+			productName = Walkette_again;
+			productReference = B850EDFA258D83BA00EEB9A7 /* Walkette_again.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B850EE0A258D83BC00EEB9A7 /* Walkette_againTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B850EE22258D83BC00EEB9A7 /* Build configuration list for PBXNativeTarget "Walkette_againTests" */;
+			buildPhases = (
+				B850EE07258D83BC00EEB9A7 /* Sources */,
+				B850EE08258D83BC00EEB9A7 /* Frameworks */,
+				B850EE09258D83BC00EEB9A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B850EE0D258D83BC00EEB9A7 /* PBXTargetDependency */,
+			);
+			name = Walkette_againTests;
+			productName = Walkette_againTests;
+			productReference = B850EE0B258D83BC00EEB9A7 /* Walkette_againTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B850EE15258D83BC00EEB9A7 /* Walkette_againUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B850EE25258D83BC00EEB9A7 /* Build configuration list for PBXNativeTarget "Walkette_againUITests" */;
+			buildPhases = (
+				B850EE12258D83BC00EEB9A7 /* Sources */,
+				B850EE13258D83BC00EEB9A7 /* Frameworks */,
+				B850EE14258D83BC00EEB9A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B850EE18258D83BC00EEB9A7 /* PBXTargetDependency */,
+			);
+			name = Walkette_againUITests;
+			productName = Walkette_againUITests;
+			productReference = B850EE16258D83BC00EEB9A7 /* Walkette_againUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B850EDF2258D83BA00EEB9A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					B850EDF9258D83BA00EEB9A7 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					B850EE0A258D83BC00EEB9A7 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = B850EDF9258D83BA00EEB9A7;
+					};
+					B850EE15258D83BC00EEB9A7 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = B850EDF9258D83BA00EEB9A7;
+					};
+				};
+			};
+			buildConfigurationList = B850EDF5258D83BA00EEB9A7 /* Build configuration list for PBXProject "Walkette_again" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ko,
+			);
+			mainGroup = B850EDF1258D83BA00EEB9A7;
+			productRefGroup = B850EDFB258D83BA00EEB9A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B850EDF9258D83BA00EEB9A7 /* Walkette_again */,
+				B850EE0A258D83BC00EEB9A7 /* Walkette_againTests */,
+				B850EE15258D83BC00EEB9A7 /* Walkette_againUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B850EDF8258D83BA00EEB9A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B850EE05258D83BC00EEB9A7 /* Preview Assets.xcassets in Resources */,
+				B850EE02258D83BC00EEB9A7 /* Assets.xcassets in Resources */,
+				B850EE5E258D9E9B00EEB9A7 /* testVideo.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B850EE09258D83BC00EEB9A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B850EE14258D83BC00EEB9A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B850EDF6258D83BA00EEB9A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B850EE45258D848600EEB9A7 /* MainGalleryView.swift in Sources */,
+				B850EE40258D847600EEB9A7 /* MenuView.swift in Sources */,
+				B850EE31258D844B00EEB9A7 /* SignUpView.swift in Sources */,
+				B850EE3B258D846800EEB9A7 /* MapView.swift in Sources */,
+				B850EE2C258D843000EEB9A7 /* LogInView.swift in Sources */,
+				B850EE00258D83BA00EEB9A7 /* ContentView.swift in Sources */,
+				B850EE36258D845900EEB9A7 /* MainView.swift in Sources */,
+				B850EE4A258D848F00EEB9A7 /* AnalysisView.swift in Sources */,
+				B850EDFE258D83BA00EEB9A7 /* Walkette_againApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B850EE07258D83BC00EEB9A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B850EE10258D83BC00EEB9A7 /* Walkette_againTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B850EE12258D83BC00EEB9A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B850EE1B258D83BC00EEB9A7 /* Walkette_againUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B850EE0D258D83BC00EEB9A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B850EDF9258D83BA00EEB9A7 /* Walkette_again */;
+			targetProxy = B850EE0C258D83BC00EEB9A7 /* PBXContainerItemProxy */;
+		};
+		B850EE18258D83BC00EEB9A7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B850EDF9258D83BA00EEB9A7 /* Walkette_again */;
+			targetProxy = B850EE17258D83BC00EEB9A7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B850EE1D258D83BC00EEB9A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B850EE1E258D83BC00EEB9A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B850EE20258D83BC00EEB9A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Walkette_again/Preview Content\"";
+				DEVELOPMENT_TEAM = H3J2ZWWZQV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Walkette_again/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.peng-u-0807.Walkette-again";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B850EE21258D83BC00EEB9A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Walkette_again/Preview Content\"";
+				DEVELOPMENT_TEAM = H3J2ZWWZQV;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Walkette_again/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.peng-u-0807.Walkette-again";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B850EE23258D83BC00EEB9A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H3J2ZWWZQV;
+				INFOPLIST_FILE = Walkette_againTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.peng-u-0807.Walkette-againTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Walkette_again.app/Walkette_again";
+			};
+			name = Debug;
+		};
+		B850EE24258D83BC00EEB9A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H3J2ZWWZQV;
+				INFOPLIST_FILE = Walkette_againTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.peng-u-0807.Walkette-againTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Walkette_again.app/Walkette_again";
+			};
+			name = Release;
+		};
+		B850EE26258D83BC00EEB9A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H3J2ZWWZQV;
+				INFOPLIST_FILE = Walkette_againUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.peng-u-0807.Walkette-againUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Walkette_again;
+			};
+			name = Debug;
+		};
+		B850EE27258D83BC00EEB9A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H3J2ZWWZQV;
+				INFOPLIST_FILE = Walkette_againUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.peng-u-0807.Walkette-againUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Walkette_again;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B850EDF5258D83BA00EEB9A7 /* Build configuration list for PBXProject "Walkette_again" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B850EE1D258D83BC00EEB9A7 /* Debug */,
+				B850EE1E258D83BC00EEB9A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B850EE1F258D83BC00EEB9A7 /* Build configuration list for PBXNativeTarget "Walkette_again" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B850EE20258D83BC00EEB9A7 /* Debug */,
+				B850EE21258D83BC00EEB9A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B850EE22258D83BC00EEB9A7 /* Build configuration list for PBXNativeTarget "Walkette_againTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B850EE23258D83BC00EEB9A7 /* Debug */,
+				B850EE24258D83BC00EEB9A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B850EE25258D83BC00EEB9A7 /* Build configuration list for PBXNativeTarget "Walkette_againUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B850EE26258D83BC00EEB9A7 /* Debug */,
+				B850EE27258D83BC00EEB9A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B850EDF2258D83BA00EEB9A7 /* Project object */;
+}
